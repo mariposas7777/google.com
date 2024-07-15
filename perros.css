@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "perros";
+    src: url(../fonts/sigmar-one.woff);
+}
+
+body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(219, 234, 236);
+}
+h1,h2{
+    font-family: "perros";
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+
+}
+h2{
+    color: lightblue;
+    text-shadow: 2px 2px black;
+    font-size: 45px;
+    margin: 0;
+}
+hr{
+    background-color: lightblue;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 30px ;
+    width: 70% ;
+    clear: both; 
+}
+.rojo{
+    background-color: white;
+    color: red;
+}
+b{
+    text-decoration: underline;
+}
+dd{
+    text-align: right;
+}
+.i1{
+    float: left;
+    margin-bottom:20px;
+    margin-right: 20px;
+}
+.i2{
+    float: right;
+    margin-bottom:20px;
+    margin-left: 20px;
+}
+/* #ratonero{
+    text-align: center;
+} */
+
+/* #ratIzqda{
+    position: absolute;
+    top: 95%;
+    left: 50px;
+    width: 30%;
+}
+#ratDercha{
+    width: 30%;
+    position: absolute;
+    top: 95%;
+    right: 50px;
+} */
+img{
+    width: 150px;
+    border: 5px solid rgb(219, 234, 236);
+    outline: 5px solid lightblue;
+
+}
+td{
+    width: 33%;;
+    /* border: 1px solid black; */
+    vertical-align: top;
+}
